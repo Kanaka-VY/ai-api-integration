@@ -1,0 +1,6 @@
+ollama
+openai
+cohere
+google-generativeai
+groq
+transformers

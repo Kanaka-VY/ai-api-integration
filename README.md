@@ -1,67 +1,116 @@
 # AI API Integration Assignment
 
-This project demonstrates how to integrate multiple Generative AI APIs using Python. Each script connects to a different AI provider and generates responses using their models. The goal of this project is to understand how different AI APIs work and how they can be integrated into Python applications.
+This project demonstrates how to integrate multiple Generative AI APIs using Python in a structured and practical way.
 
 ## APIs Used
 
-1. OpenAI API  
-2. Gemini API (Google)  
-3. Cohere API  
-4. Groq API  
-5. HuggingFace API  
-6. Ollama (Local LLM)
-
-These APIs allow developers to build applications such as chatbots, AI assistants, content generators, and intelligent automation systems.
+* OpenAI API
+* Gemini API (Google)
+* Cohere API
+* Groq API
+* HuggingFace API
+* Ollama (Local LLM)
 
 ## Project Structure
 
+```
 ai-api-integration/
+├── ai_chat.py
+├── openai_example.py
+├── gemini_example.py
+├── cohere_example.py
+├── groq_example.py
+├── huggingface_example.py
+├── ollama_example.py
+├── requirements.txt
+└── README.md
+```
 
-├── ai_chat.py               # Local AI chatbot using Ollama  
-├── openai_example.py        # Example using OpenAI API  
-├── gemini_example.py        # Example using Google Gemini API  
-├── cohere_example.py        # Example using Cohere API  
-├── groq_example.py          # Example using Groq API  
-├── huggingface_example.py   # Example using HuggingFace API  
-├── ollama_example.py        # Example using Ollama local model  
-├── requirements.txt         # Python dependencies  
-└── README.md                # Project documentation  
+---
 
 ## Requirements
 
-- Python 3.8 or higher  
-- Internet connection for cloud APIs  
-- Ollama installed for running local LLM models  
+* Python 3.8 or higher
+* Internet connection for cloud APIs
+* Ollama installed (for local model)
+
+---
 
 ## Installation
 
-Install the required Python libraries using the following command:
-
+```bash
 pip install -r requirements.txt
+```
+
+---
 
 ## How to Run
 
-Run any example script using Python:
+```bash
+python openai_example.py
+python gemini_example.py
+python cohere_example.py
+python groq_example.py
+python huggingface_example.py
+python ollama_example.py
+```
 
-python openai_example.py  
-python gemini_example.py  
-python cohere_example.py  
-python groq_example.py  
-python huggingface_example.py  
-python ollama_example.py  
+For chatbot:
 
-To run the local AI chatbot:
-
+```bash
 python ai_chat.py
+```
+
+---
+
+## API Keys Setup
+
+Set your API keys as environment variables:
+
+* OPENAI_API_KEY
+* GOOGLE_API_KEY
+* COHERE_API_KEY
+* GROQ_API_KEY
+* HUGGINGFACE_API_KEY
+
+---
+
+## Output Screenshots
+
+### OpenAI
+
+![OpenAI](screenshots/openai_output.png)
+
+### Gemini
+
+![Gemini](screenshots/gemini_output.png)
+
+### Cohere
+
+![Cohere](screenshots/cohere_output.png)
+
+### Groq
+
+![Groq](screenshots/groq_example.png)
+
+### HuggingFace
+
+![HuggingFace](screenshots/huggingface_output.png)
+
+### Ollama
+
+![Ollama](screenshots/ollama.png)
+
+---
 
 ## Example Use Cases
 
-This project demonstrates:
+* AI chatbot development
+* Text generation
+* API integration
+* Local LLM usage
 
-- AI chatbot development  
-- Text generation using different AI APIs  
-- Integration of cloud-based AI services with Python  
-- Running local Large Language Models using Ollama  
+---
 
 ## Author
 

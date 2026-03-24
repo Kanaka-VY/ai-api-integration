@@ -5,19 +5,19 @@ def query_ollama(prompt):
         url = "http://localhost:11434/api/generate"
 
         payload = {
-            "model": "llama3",
+            "model": "phi3",
             "prompt": prompt,
             "stream": False
         }
 
         response = requests.post(url, json=payload)
 
-        return response.json()["response"]
+        data = response.json()
+        return data.get("response", str(data))
 
     except Exception as e:
         return f"Error: {e}"
-
-
+    
 if __name__ == "__main__":
     prompt = input("Enter your prompt: ")
     print("Response:")

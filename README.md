@@ -1,15 +1,31 @@
-# AI API Integration Assignment
+# AI API Integration Project
 
-This project demonstrates how to integrate multiple Generative AI APIs using Python in a structured and practical way.
+This project integrates multiple Generative AI APIs into a unified Python system, enabling prompt-based interaction across different AI models, including both cloud-based and local LLMs.
+
+---
+
+## Features
+
+* Integration of multiple AI APIs in one system  
+* Modular Python scripts for each API  
+* Chatbot functionality using AI models  
+* Support for both cloud-based and local models  
+* Easy API key configuration  
+
+---
 
 ## APIs Used
 
-* OpenAI API
-* Gemini API (Google)
-* Cohere API
-* Groq API
-* HuggingFace API
-* Ollama (Local LLM)
+* OpenAI API  
+* Google Gemini API  
+* Cohere API  
+* Groq API  
+* HuggingFace API  
+* Ollama (Local LLM)  
+
+## Tech Stack
+
+Python, OpenAI, Gemini, Cohere, Groq, HuggingFace, Ollama  
 
 ## Project Structure
 
@@ -26,13 +42,11 @@ ai-api-integration/
 └── README.md
 ```
 
----
-
 ## Requirements
 
-* Python 3.8 or higher
-* Internet connection for cloud APIs
-* Ollama installed (for local model)
+* Python 3.8 or higher  
+* Internet connection for cloud APIs  
+* Ollama installed (for local model)  
 
 ---
 
@@ -41,8 +55,6 @@ ai-api-integration/
 ```bash
 pip install -r requirements.txt
 ```
-
----
 
 ## How to Run
 
@@ -55,64 +67,56 @@ python huggingface_example.py
 python ollama_example.py
 ```
 
-For chatbot:
+### For chatbot:
 
 ```bash
 python ai_chat.py
 ```
 
----
-
 ## API Keys Setup
 
 Set your API keys as environment variables:
 
-* OPENAI_API_KEY
-* GOOGLE_API_KEY
-* COHERE_API_KEY
-* GROQ_API_KEY
-* HUGGINGFACE_API_KEY
+* OPENAI_API_KEY  
+* GOOGLE_API_KEY  
+* COHERE_API_KEY  
+* GROQ_API_KEY  
+* HUGGINGFACE_API_KEY  
 
 ---
 
 ## Output Screenshots
 
 ### OpenAI
-
-![OpenAI](screenshots/openai_output.png)
+![OpenAI](openai_output.png)
 
 ### Gemini
-
-![Gemini](screenshots/gemini_output.png)
+![Gemini](gemini_output.png)
 
 ### Cohere
-
-![Cohere](screenshots/cohere_output.png)
+![Cohere](cohere_output.png)
 
 ### Groq
-
-![Groq](screenshots/groq_example.png)
+![Groq](groq_example.png)
 
 ### HuggingFace
-
-![HuggingFace](screenshots/huggingface_output.png)
+![HuggingFace](huggingface_output.png)
 
 ### Ollama
-
-![Ollama](screenshots/ollama.png)
+![Ollama](ollama.png)
 
 ---
 
 ## Example Use Cases
 
-* AI chatbot development
-* Text generation
-* API integration
-* Local LLM usage
+* AI chatbot development  
+* Text generation  
+* API integration  
+* Local LLM usage  
 
 ---
 
 ## Author
 
-Kanaka V Y
-
+Kanaka V Y  
+B.E Artificial Intelligence & Machine Learning Student  
